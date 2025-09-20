@@ -1,16 +1,70 @@
-# এখন আমরা দেখবো কিভাবে ইউজার থেকে ইনপুট নিতে হয়।
-# Python এ ইনপুট নেওয়ার জন্য input() ফাংশন ব্যবহার করা হয়।   
-a = input ("Enter your name : ") # এখানে "a" ভেরিয়েবল হিসাবে রাখা হয়েছে। 
-print("Your input is : ",a) # এখানে ইউজার যে ইনপুট দিয়েছে তা প্রিন্ট করা হয়েছে। 
-
-a = int(input("Enter your first number : "))
-b = int(input("Enter your second number : "))
-addition = a + b# এখানে দুইটি ভেরিয়েবল যোগ করা হয়েছে।
-subtraction = a - b # এখানে দুইটি ভেরিয়েবল বিয়োগ করা হয়েছে।
-division = a / b # এখানে দুইটি ভেরিয়েবল ভাগ করা হয়েছে।
-multiplication = a * b # এখানে দুইটি ভেরিয়েবল গুন করা হয়েছে।
-
-print("Addition is : ", addition) # এখানে যোগফল প্রিন্ট করা হয়েছে।
-print("Subtraction is : ", subtraction) # এখানে বিয়োগফল প্রিন্ট করা হয়েছে।
-print("Division is : ", division) # এখানে ভাগফল প্রিন্ট করা হয়েছে।
-print("Multiplication is : ", multiplication) # এখানে গুনফল প্রিন্ট করা হয়েছে।
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "44bd840e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# user input data \n",
+    "# এখানে আমরা দেখবো কি ভাবে ইউজার হতে যে কোনোও টাইপের ডাটা ইনপুট নেওয়া যায়।\n",
+    "# ডাটা ইনপুট নেওয়ার জণ্য input () ফাংশন ব্যবহার করা হয়।\n",
+    "\n",
+    "name = input(\"Enter your name :\") # এখানে ডাবল  কোটেশনের মধ্যে উজারকে একটি মেসেজ দেখানো হয়েছে। যে কি করতে হবে।\n",
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6aefba73",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "da5342d5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "base",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
